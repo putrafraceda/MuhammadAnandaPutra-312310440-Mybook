@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linear_background"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akun"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/potoprofile"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="start|center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Michael sinaga@gmail.com"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSelectedLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Pilih Bahasa"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinnerLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSelectedLanguage"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/radius_button"
+    android:padding="8dp"
+    android:layout_marginTop="78mm">
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/iconhome" />
+
+    <ImageView
+        android:id="@+id/favorit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:src="@drawable/iconfavoriteblue" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:src="@drawable/iconprofile" />
+
+    <ImageView
+        android:id="@+id/terakhirdilihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:src="@drawable/iconterakhirdilihat" />
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:src="@drawable/settingbuttonblue" />
+</LinearLayout>
+</LinearLayout>
